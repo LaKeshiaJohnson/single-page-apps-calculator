@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Calculator</title>
+		<title>Javascript Calculator</title>
+		<link rel="stylesheet" type"text/css" href="css/styles.css">
 	</head>
 	<body>
+		
+		<h1>Calculate!</h1>
+
+		<div class="wrapper">
+		<p>Enter a number:</p>
+  		<input type="text" name="inputnum1" id="input1"><br>
+  		<p>Enter another number:</p>
+  		<input type="text" name="inputnum2" id="input2"><br><br><br>
+
+  		<button id="addbtn">Add</button>
+  		<button id="subtractbtn">Subtract</button>
+  		<button id="multiplybtn">Multiply</button>
+  		<button id="dividebtn">Divide</button>
+
+  		<br>
+  		<br>
+  		<p>Answer:</p>
+  		<div id="output"></div>
 
 
-	Input 1:<br>
-  <input type="text" name="inputnum1" id="input1"><br>
-  Input 2:<br>
-  <input type="text" name="inputnum2" id="input2"><br>
-
-  <button id="addbtn">Add</button>
-  <button id="subtractbtn">Subtract</button>
-  <button id="multiplybtn">Multiply</button>
-  <button id="dividebtn">Divide</button>
-
-
-<div id="output"></div>
+		</div>
 	<script type="text/javascript" src="calculator.js"></script>
 	</body>
 </html>

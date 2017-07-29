@@ -72,14 +72,14 @@ function divide(n1, n2) {
   Return the value of the operation.
  */
 
-function  performCalculation(n1, n2, action){
+/*function  performCalculation(n1, n2, action){
   let answer = action(n1, n2);
   return answer;
 
 let addNums = performCalculation(5, 5, add);
 console.log("Number 1 plus number 2 = ", addNums);
 }
-
+*/
 
 
 
